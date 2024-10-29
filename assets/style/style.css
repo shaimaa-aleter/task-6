@@ -1,0 +1,55 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .navbar, header .hero, .back-ground ,.Featured,.Popular{
+    background-color: rgb(243, 242, 236) ;
+}
+.img, .bg-color,.best-selling {
+    background-color: #edebe4;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #FFA500;
+    font-weight: bold;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.color {
+    color: #FFA500;
+}
+
+.carousel-item img {
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+
+.text-section {
+    margin: 20px 0;
+}
+.Popular ul li a{
+    text-decoration: none;
+    color: #2e2b2b;
+
+}
+
+
+
+@media (max-width: 576px) {
+    .carousel-item h2 {
+        font-size: 1.5rem;
+    }
+    .carousel-item p {
+        font-size: 0.9rem;
+    }
+    .img {
+        padding: 10px;
+    }
+    footer .row {
+        text-align: left;
+    }
+}
